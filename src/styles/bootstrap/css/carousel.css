@@ -29,8 +29,7 @@
 }
 
 .marketing {
-  margin-bottom: 30px;
-  margin-top: 60px;
+  margin: 60px auto;
 }
 
 .marketing .col-md-4 {
@@ -46,6 +45,13 @@
   color: #444;
 }
 
+footer {
+  background: #444;
+  padding: 40px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -58,7 +64,4 @@
     line-height: 1.4;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
 }
