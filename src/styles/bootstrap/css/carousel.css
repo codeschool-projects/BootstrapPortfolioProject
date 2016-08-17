@@ -52,6 +52,15 @@ footer {
   text-shadow: 1px 1px 1px black;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
