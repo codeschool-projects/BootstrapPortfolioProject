@@ -24,13 +24,13 @@ describe('The webpage', () => {
       assert.isOk(navbar, 'We need a `.navbar` element.');
     });
 
-    it('should have changed the contents of `.navbar-brand` @navbar', () => {
+    it('should have changed the contents of `.navbar-brand` @navbar-brand', () => {
       const el = navbar.querySelector('.navbar-brand');
       assert.isOk(el, 'Our `.navbar` needs a `.navbar-brand` element.');
       assert.notEqual('brand', el.textContent.trim().toLowerCase(), 'The `.navbar-brand` element needs a text that is different than the default "Brand".');
     });
 
-    it('should have have changed menu items @navbar', () => {
+    it('should have have changed menu items @navbar-menu', () => {
       const menuItems = Array.from(navbar.querySelectorAll('.nav li a'));
       assert.isAtLeast(menuItems.length, 2, 'Our menu needs at least 2 `li` elements.');
 
@@ -57,7 +57,7 @@ describe('The webpage', () => {
       assert.isOk(carousel, 'We need a `.carousel` element.');
     });
 
-    it('should have at least 3 items and have them modified @carousel', () => {
+    it('should have at least 3 items and have them modified @carousel-items', () => {
       const items = Array.from(carousel.querySelectorAll('.item'));
       assert.isAtLeast(items.length, 3, 'Our carousel needs at least 3 `.item` elements.');
 
@@ -107,7 +107,7 @@ describe('The webpage', () => {
         assert.equal(columns.length, 3, 'Our `.row` element needs at least 3 column elements.');
       });
 
-      it('should have an icon with the glyphicon icon class @marketing', () => {
+      it('should have an icon with the glyphicon icon class @marketing-columns', () => {
         columns.forEach(column => {
           const icon = column.querySelector('.glyphicon');
           const iconClasses = Array.from(icon.classList);
@@ -119,7 +119,7 @@ describe('The webpage', () => {
         });
       });
 
-      it('should have a non-empty `<h2>` title @marketing', () => {
+      it('should have a non-empty `<h2>` title @marketing-columns', () => {
         columns.forEach(column => {
           const h2 = column.querySelector('h2');
           assert.isOk(h2, 'Every marketing column needs an `h2` element.');
@@ -127,7 +127,7 @@ describe('The webpage', () => {
         })
       });
 
-      it('should have a non-empty paragraph @marketing', () => {
+      it('should have a non-empty paragraph @marketing-columns', () => {
         columns.forEach(column => {
           const p = column.querySelector('p');
           assert.isOk(p, 'Every marketing column needs a `p` element.');
@@ -149,14 +149,19 @@ describe('The webpage', () => {
       assert.isOk(footer, 'We need a `.footer` element.');
     });
 
-    it('should have a non-empty `<h3>` title @footer', () => {
-      let el = footer.querySelector('h3');
+    it('should have a container @footer', () => {
+      const el = footer.querySelector('.container');
+      assert.isOk(el, 'We need a `.container` element inside our `footer`.');
+    });
+
+    it('should have a non-empty `<h3>` title @footer-elements', () => {
+      let el = footer.querySelector('.container h3');
       assert.isOk(el, 'Our footer needs an `h3` element.');
       assert.isOk(el.textContent.trim() !== '', 'Our footer\'s `h3` element cannot be empty');
     });
 
-    it('should have a non-empty `<p>` tag @footer', () => {
-      let el = footer.querySelector('p');
+    it('should have a non-empty `<p>` tag @footer-elements', () => {
+      let el = footer.querySelector('.container p');
       assert.isOk(el, 'Our footer needs a `p` element.');
       assert.isOk(el.textContent.trim() !== '', 'Our footer\'s `p` element cannot be empty');
     });
