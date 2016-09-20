@@ -103,7 +103,7 @@ describe('The webpage', () => {
 
       beforeEach(() => columns = Array.from(marketing.querySelectorAll('.row .col-sm-4, .row .col-md-4, .row .col-lg-4')))
 
-      it('should exist at least 3 @marketing', () => {
+      it('should exist at least 3 @marketing-columns', () => {
         assert.equal(columns.length, 3, 'Our `.row` element needs at least 3 column elements.');
       });
 
