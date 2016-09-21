@@ -157,19 +157,28 @@ describe('The webpage', () => {
       const el = footer.querySelector('.container');
       assert.isOk(el, 'We need a `.container` element inside our `footer`.');
     });
+  });
+
+  describe('footer-elements', () => {
+    let footer;
+    beforeEach(() => footer = doc.querySelector('.footer'));
+
+    it('should exist @footer-elements', () => {
+      assert.isOk(footer, 'We need a `.footer` element.');
+    });
 
     it('should have a non-empty `<h3>` title @footer-elements', () => {
-      let el = footer.querySelector('.container h3');
+      const el = footer && footer.querySelector('.container h3');
       assert.isOk(el, 'Our footer needs an `h3` element.');
       assert.isOk(el.textContent.trim() !== '', 'Our footer\'s `h3` element cannot be empty');
     });
 
     it('should have a non-empty `<p>` tag @footer-elements', () => {
-      let el = footer.querySelector('.container p');
+      const el = footer && footer.querySelector('.container p');
       assert.isOk(el, 'Our footer needs a `p` element.');
       assert.isOk(el.textContent.trim() !== '', 'Our footer\'s `p` element cannot be empty');
     });
-  });
+  })
 
   /**
    * STEP 5: ELEMENTS THAT SHOULD BE REMOVED
