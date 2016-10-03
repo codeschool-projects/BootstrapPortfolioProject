@@ -66,14 +66,18 @@ describe('The webpage', () => {
         // Does each item contain an `<h1>` tag?
         const h1 = item.querySelector('h1');
         assert(h1, 'Each carousel item needs an `h1` element.');
-        assert(h1.textContent.trim() !== 'Example headline', 'Every `h1` inside the carousel items need a customized text content.');
+        assert(
+          h1.textContent.trim() !== 'Example headline',
+          'Every `h1` inside the carousel items need a customized text content.'
+        );
 
         // Does each item contain an `<p>` tag?
         const p = item.querySelector('p');
-        assert(p, 'Each carousel item needs a `p` element.');
+        assert(p, 'Each carousel item needs a `p` tag.');
+
         assert(
           !p.textContent.trim().startsWith('Cras justo odio'),
-          'Every `p` element inside carousel items need a customized text content.'
+          'It does not look like you have customized every `p` tag inside the carousel items..'
         );
       });
     });
@@ -150,10 +154,10 @@ describe('The webpage', () => {
    */
   describe('footer', () => {
     let footer;
-    beforeEach(() => footer = doc.querySelector('.footer'));
+    beforeEach(() => footer = doc.querySelector('.footer, footer'));
 
     it('should exist @footer', () => {
-      assert.isOk(footer, 'We need a `.footer` element.');
+      assert.isOk(footer, 'We need a `footer` element.');
     });
 
     it('should have a container @footer', () => {
@@ -164,10 +168,10 @@ describe('The webpage', () => {
 
   describe('footer-elements', () => {
     let footer;
-    beforeEach(() => footer = doc.querySelector('.footer'));
+    beforeEach(() => footer = doc.querySelector('.footer, footer'));
 
     it('should exist @footer-elements', () => {
-      assert.isOk(footer, 'We need a `.footer` element.');
+      assert.isOk(footer, 'We need a `footer` element.');
     });
 
     it('should have a non-empty `<h3>` title @footer-elements', () => {

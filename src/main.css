@@ -76,7 +76,8 @@ body {
   margin-bottom: 160px;
 }
 
-.footer {
+.footer,
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
