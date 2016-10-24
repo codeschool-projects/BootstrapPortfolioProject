@@ -25,12 +25,14 @@ describe('The webpage', () => {
     });
 
     it('should have changed the contents of `.navbar-brand` @navbar-brand', () => {
+      assert.isOk(navbar, 'We need a `.navbar` element.');
       const el = navbar.querySelector('.navbar-brand');
       assert(el, 'Our `.navbar` needs a `.navbar-brand` element.');
       assert('brand' !== el.textContent.trim().toLowerCase(), 'The `.navbar-brand` element needs a text that is different than the default "Brand".');
     });
 
     it('should have have changed menu items @navbar-menu', () => {
+      assert.isOk(navbar, 'We need a `.navbar` element.');
       const menuItems = Array.from(navbar.querySelectorAll('.nav li a'));
       assert(menuItems.length >= 2, 'Our menu needs at least 2 `li` elements.');
 
@@ -58,6 +60,7 @@ describe('The webpage', () => {
     });
 
     it('should have at least 3 items and have them modified @carousel-items', () => {
+      assert(carousel, 'We need a `.carousel` element.');
       const items = Array.from(carousel.querySelectorAll('.item'));
       assert(items.length >= 3, 'Our carousel needs at least 3 `.item` elements.');
 
@@ -96,11 +99,13 @@ describe('The webpage', () => {
     });
 
     it('should have a cointainer @marketing', () => {
+      assert(marketing, 'We need a `.marketing` element.');
       const el = marketing.querySelector('.container');
       assert(el, 'Our `.marketing` element needs a `.container` element.');
     });
 
     it('should have a row @marketing', () => {
+      assert(marketing, 'We need a `.marketing` element.');
       const el = marketing.querySelector('.container .row');
       assert(el, 'Our marketing `.container` needs a `.row` element.');
     });
@@ -161,6 +166,7 @@ describe('The webpage', () => {
     });
 
     it('should have a container @footer', () => {
+      assert.isOk(footer, 'We need a `footer` element.');
       const el = footer.querySelector('.container');
       assert.isOk(el, 'We need a `.container` element inside our `footer`.');
     });
