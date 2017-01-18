@@ -130,7 +130,7 @@ describe('The webpage', () => {
           assert(icon, 'Every marketing row column needs an icon.');
           assert(
             iconClasses.find(className => className.startsWith('glyphicon-')),
-            'Our marketing icons needs a class that starts with `glaphicon-` to describe which icon graphic it should contain.'
+            'Our marketing icons needs a class that starts with `glyphicon-` to describe which icon graphic it should contain.'
           );
         });
       });
