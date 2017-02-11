@@ -5,6 +5,12 @@
   margin-bottom: 0;
 }
 
+.avg_logo {
+  width: 33px;
+  max-height: 100%;
+  box-shadow: 0 0 9px 2px black;
+}
+
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
 

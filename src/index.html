@@ -17,7 +17,9 @@
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
       <span class="sr-only">Toggle navigation</span>
     </button>
-    <a class="navbar-brand" href="#">Morgan McCircuit</a>
+    <a class="navbar-brand" href="#">
+      <img class="avg_logo" alt="Sebo the Avanger" src="http://weneedfun.com/wp-content/uploads/2016/11/Avengers-Logo-1.png">
+    </a>
   </div>
     <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
       <ul class="nav navbar-nav">
@@ -32,13 +34,50 @@
   </nav>
 
 
-<div class="container">
-  <div class="tagline">
-    <h3>Who I am</h3>
-    <p>Hi, my name is Morgan and I love to write code that is efficient.</p>
+<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Who I am</h1>
+          <p>Hi, my name is Sebo and I am an Avanger!</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What I do</h1>
+          <p>I love to smash a Zombie head and through it on the ground! ;)</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What I've done</h1>
+          <p>Once I lifted Thors hammer!</p>
+        </div>
+      </div>
+    </div>
   </div>
+  <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
+<div class="container">
   <div class="skills">
     <h3>What I do</h3>
     <p>Here are some of the languages I use on a day-to-day.</p>
