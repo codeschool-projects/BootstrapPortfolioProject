@@ -68,19 +68,25 @@
   color: #444;
 }
 
+/* for Avanger pictures
+-------------------------------------------------- */
+.marketing .col-md-3   {
+  padding-bottom: 25px;
+}
+/* -------------------------- */
 
 .cont {
   background-color: #777;
 }
 
-.cont .col-md-4 {
+.cont .col-md-6 {
   text-align: center;
   font-size: 16px;
   color: white;
   padding: 40px;
 }
 
-.cont .col-md-4 .glyphicon{
+.cont .col-md-6 .glyphicon{
   font-size: 60px;
   background-color: #EAEAEA;
   border-radius: 50%;
@@ -98,13 +104,13 @@
 
 .thumbnail {
   border: none;
-  position: relative;
   height: 200px;
   width: 200px;
+  display: block;
+  margin: auto;
 }
 
 .imgage {
-  display: block;
   opacity: 1;
 }
 
