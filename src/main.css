@@ -99,6 +99,10 @@
   text-align: left;
 }
 
+.cont p a {
+  color: white;
+}
+
 /* Pictures
 -------------------------------------------------- */
 

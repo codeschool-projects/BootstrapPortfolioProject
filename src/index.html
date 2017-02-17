@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="main.css">
   <title>HTML Portfolio</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#portfolio-collapse-menu">
   <script>
     var counter = 0;
   </script>
@@ -30,21 +30,26 @@
     <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Sebo Prime</a>
+          <a class="nav-link" href="#portfolio-carousel">Sebo Prime</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mailbox">Thor's Mailbox</a>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-          aria-haspopup="true" aria-expanded="false">my friends <span class="caret"></span>
+          aria-haspopup="true" aria-expanded="false">Avanger Team <span class="caret"></span>
           </a>
               <ul class="dropdown-menu">
-                    <li><a href="#">Thor</a></li>
-                    <li><a href="#">Black Widow</a></li>
-                    <li><a href="#">Black Panther</a></li>
+                    <li><a href="#thor">Thor</a></li>
+                    <li><a href="#natasha">Black Widow</a></li>
+                    <li><a href="#steve">Captain America</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Captain America</a></li>
-                    <li><a href="#">Iron Man</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Hawkeye</a></li>
+                    <li><a href="#bruce">Hulk</a></li>
+                    <li><a href="#clint">Hawkeye</a></li>
+                    <li><a href="#tony">Iron Man</a></li>
               </ul>
         </li>
       </ul>
@@ -95,7 +100,8 @@
   </a>
 </div>
 
-<div class="marketing">
+
+<div class="marketing" id="skills">
   <div class="container">
     <div class="row">
       <div class="col-md-4">
@@ -106,7 +112,7 @@
       <div class="col-md-4">
         <span class="glyphicon glyphicon-flash"></span>
         <h2>Lightning superpower</h2>
-        <p>I am able to fire lightling bolts!</p>
+        <p>I am able to fire lightning bolts!</p>
       </div>
       <div class="col-md-4">
         <span class="glyphicon glyphicon-sunglasses"></span>
@@ -117,13 +123,14 @@
     </div>
   </div>
 </div>
-  <div class="cont">
+
+
+  <div class="cont" id="mailbox">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <button type="button" id="thorsButton" data-toggle="button"
-            class="glyphicon glyphicon-envelope" aria-pressed="false"
-            autocomplete="off" onclick="increase();">
+          <button type="button" id="thorsButton" class="glyphicon glyphicon-envelope"
+            onclick="increase();">
           </button>
           <script>
           function increase()
@@ -133,7 +140,7 @@
           }
           </script>
           <h2>Want to email Thor ?</h2>
-          <p>Click on the envelope to drop Thor a thundermail</p>
+          <p>Press the envelope to drop Thor a thundermail</p>
         </div>
         <div class="col-md-6">
           <h2>Thundermail overview</h2>
@@ -154,42 +161,49 @@
     </div>
   </div>
 
-<div class="marketing">
+
+<div class="marketing" id="team">
 <div class="container">
   <div class="row">
     <div class="col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="http://vignette3.wikia.nocookie.net/marvelmovies/images/4/45/Norse_Thor.png/revision/latest?cb=20150331213640" alt="Thor" class="image">
+      <a href="#thor" class="thumbnail">
+        <img src="http://vignette3.wikia.nocookie.net/marvelmovies/images/4/45/Norse_Thor.png/revision/latest?cb=20150331213640"
+          alt="Thor" class="image" id="thor">
           <div class="middle"><div class="img-text">Thor</div></div>
       </a>
     </div>
     <div class="col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="https://i.imgur.com/sLE6uFq.png" alt="Black Widow" class="image">
+      <a href="#natasha" class="thumbnail">
+        <img src="https://i.imgur.com/sLE6uFq.png"
+          alt="Black Widow" class="image" id="natasha">
           <div class="middle"><div class="img-text">Natasha</div></div>
       </a>
     </div>
     <div class="col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="https://s-media-cache-ak0.pinimg.com/736x/e1/76/a6/e176a68b6240bf9943950cb2a78dcf9b.jpg" alt="Captain America" class="image">
+      <a href="#steve" class="thumbnail">
+        <img src="https://s-media-cache-ak0.pinimg.com/736x/e1/76/a6/e176a68b6240bf9943950cb2a78dcf9b.jpg"
+          alt="Captain America" class="image" id="steve">
           <div class="middle"><div class="img-text">Steve</div></div>
       </a>
     </div>
     <div class="col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="https://static.omelete.uol.com.br/media/extras/conteudos/vingadores_era_de_ultron_promo10.png__932x545_q85_subsampling-2.png" alt="Hulk" class="image">
+      <a href="#bruce" class="thumbnail">
+        <img src="https://static.omelete.uol.com.br/media/extras/conteudos/vingadores_era_de_ultron_promo10.png__932x545_q85_subsampling-2.png"
+          alt="Hulk" class="image" id="bruce">
           <div class="middle"><div class="img-text">Bruce</div></div>
       </a>
     </div>
     <div class="col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="http://vignette3.wikia.nocookie.net/marvelcinematicuniverse/images/e/ed/Promo_Ojo_de_Halcon_Avengers_2.png/revision/latest?cb=20150619025412&path-prefix=es" alt="Hawkeye" class="image">
+      <a href="#clint" class="thumbnail">
+        <img src="http://vignette3.wikia.nocookie.net/marvelcinematicuniverse/images/e/ed/Promo_Ojo_de_Halcon_Avengers_2.png/revision/latest?cb=20150619025412&path-prefix=es"
+          alt="Hawkeye" class="image" id="clint">
           <div class="middle"><div class="img-text">Clint</div></div>
       </a>
     </div>
     <div class="col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="http://www.parkboundbuttons.com/uploads/7/7/5/0/77502824/s976983711987223912_p42_i13_w640.png" alt="Tony" class="image">
+      <a href="#tony" class="thumbnail">
+        <img src="http://www.parkboundbuttons.com/uploads/7/7/5/0/77502824/s976983711987223912_p42_i13_w640.png"
+          alt="Tony" class="image" id="tony">
           <div class="middle"><div class="img-text">Tony</div></div>
       </a>
     </div>
@@ -197,6 +211,7 @@
   </div>
 </div>
 </div>
+
 
 <footer>
   <div class="container">
