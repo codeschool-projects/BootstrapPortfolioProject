@@ -105,6 +105,10 @@
 
 /* Pictures
 -------------------------------------------------- */
+.offset:target {
+	display: block;
+ 	padding-top: 60px;
+}
 
 .thumbnail {
   border: none;
@@ -112,10 +116,6 @@
   width: 200px;
   display: block;
   margin: auto;
-}
-
-.imgage {
-  opacity: 1;
 }
 
 .middle {
@@ -145,6 +145,10 @@
 }
 
 .thumbnail:hover .middle {
+  opacity: 1;
+}
+
+.image {
   opacity: 1;
 }
 
@@ -179,6 +183,10 @@ footer {
 
 img {
   cache-control: max-age=600;
+}
+
+.anchor {
+  padding-top: 50px;
 }
 
 /* RESPONSIVE CSS
