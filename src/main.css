@@ -110,6 +110,13 @@
  	padding-top: 60px;
 }
 
+@media (min-width: 200px) and (max-width: 767px) {
+  .offsetPic:target {
+	   display: block;
+ 	   padding-top: 60px;
+   }
+}
+
 .thumbnail {
   border: none;
   height: 200px;
@@ -158,7 +165,7 @@
 html {
   position: relative;
   min-height: 100%;
-  cache-control: max-age=60, public;
+/*  cache-control: max-age=60, public;*/
 }
 
 body {
@@ -182,7 +189,7 @@ footer {
 }
 
 img {
-  cache-control: max-age=600;
+/*  cache-control: max-age=600;*/
 }
 
 /* RESPONSIVE CSS
