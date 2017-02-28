@@ -10,7 +10,7 @@
 
 /* Carousel base class */
 .carousel {
-  height: 240px;
+  height: 250px;
   margin-bottom: 30px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -20,8 +20,8 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 240px;
-  background-color: #777;
+  height: 250px;
+  background-color: #888;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -49,12 +49,12 @@
   margin: 60px auto;
 }
 
-.marketing .col-md-4 {
+.marketing .col-md-3 {
   text-align: center;
   font-size: 16px;
 }
 
-.marketing .col-md-4 .glyphicon {
+.marketing .col-md-3 .glyphicon {
   font-size: 60px;
   background-color: #EAEAEA;
   border-radius: 50%;
