@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="gradient-0" gradientUnits="userSpaceOnUse" x1="233.592" y1="104.432" x2="233.592" y2="202.874">
+      <stop offset="0" style="stop-color: rgba(152, 147, 66, 1)"/>
+      <stop offset="1" style="stop-color: rgba(81, 78, 35, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-1" gradientUnits="userSpaceOnUse" x1="233.942" y1="64.637" x2="233.942" y2="111.414">
+      <stop offset="0" style="stop-color: rgba(188, 201, 72, 1)"/>
+      <stop offset="1" style="stop-color: rgba(123, 132, 39, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-2" gradientUnits="userSpaceOnUse" x1="336.224" y1="215.442" x2="336.224" y2="306.902">
+      <stop offset="0" style="stop-color: rgba(156, 143, 42, 1)"/>
+      <stop offset="1" style="stop-color: rgba(76, 69, 20, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-3" gradientUnits="userSpaceOnUse" x1="450.724" y1="142.832" x2="450.724" y2="234.292">
+      <stop offset="0" style="stop-color: rgba(138, 129, 64, 1)"/>
+      <stop offset="1" style="stop-color: rgba(68, 64, 32, 1)"/>
+    </linearGradient>
+  </defs>
+  <rect x="-45.918" y="-31.739" width="626.977" height="568.41" style="fill: rgb(156, 111, 44);"/>
+  <rect x="145.624" y="204.321" width="13.265" height="300.91" transform="matrix(1, 0, -0.279124, 1, 100.423044, -2.844381)" style="fill: rgb(91, 0, 0);"/>
+  <rect x="145.624" y="203.847" width="13.265" height="300.212" transform="matrix(1, 0, 0.358245, 1, 47.667839, -0.973978)" style="fill: rgb(91, 0, 0);"/>
+  <rect transform="matrix(1, 0, 0, 1.000002, -116.887299, -10.0685)" x="264.606" y="372.124" width="185.713" height="12.567" style="fill: rgb(91, 0, 0);"/>
+  <rect x="123.981" y="447.931" width="238.076" height="12.566" style="fill: rgb(91, 0, 0);"/>
+  <rect x="167.966" y="278.974" width="136.841" height="11.869" style="fill: rgb(91, 0, 0);"/>
+  <rect x="595.007" y="288.05" width="20.846" height="76.1" transform="matrix(1, 0, -1.929571, 1, 250.365168, 0.698151)" style="fill: rgb(91, 0, 0);"/>
+  <rect x="775.967" y="288.05" width="27.186" height="76.1" transform="matrix(1, 0, -2.540423, 1, 270.69867, 84.478302)" style="fill: rgb(91, 0, 0);"/>
+  <rect x="1689.927" y="155.917" width="59.206" height="41.192" transform="matrix(1, 0, -5.153158, 1, -570.428618, 304.580609)" style="fill: rgb(91, 0, 0);"/>
+  <rect x="1689.927" y="155.917" width="59.206" height="41.192" transform="matrix(1, 0, 5.143667, 1, -2377.48005, 303.882855)" style="fill: rgb(91, 0, 0);"/>
+  <rect x="842.689" y="282.765" width="29.524" height="74.704" transform="matrix(0.999999, 0, 2.607085, 1, -1434.016077, 90.462891)" style="fill: rgb(91, 0, 0);"/>
+  <rect x="683.266" y="288.05" width="23.939" height="76.1" transform="matrix(1.000001, 0, 1.988866, 1, -1091.378284, 2.095581)" style="fill: rgb(91, 0, 0);"/>
+  <rect x="523.855" y="288.05" width="18.354" height="76.1" transform="matrix(1.000001, 0, 1.172682, 1, -669.995698, -85.175659)" style="fill: rgb(91, 0, 0);"/>
+  <rect x="523.855" y="288.05" width="18.354" height="76.1" transform="matrix(1.000002, 0, -1.17897, 1, 78.025421, -85.175476)" style="fill: rgb(91, 0, 0);"/>
+  <rect x="147.718" y="104.432" width="171.749" height="98.442" style="fill: url(#gradient-0);"/>
+  <rect x="172.852" y="128.868" width="120.085" height="26.53"/>
+  <path d="M 233.942 64.637 L 355.772 111.414 L 112.111 111.414 L 233.942 64.637 Z" style="fill: url(#gradient-1);" bx:shape="triangle 112.111 64.637 243.661 46.777 0.5 0 1@dac2370d"/>
+  <ellipse cx="233.942" cy="178.089" rx="16.407" ry="15.709" style="fill: rgb(138, 129, 64);"/>
+  <path d="M 36.012 234.291" style="fill: none; stroke: black;"/>
+  <ellipse transform="matrix(NaN, NaN, NaN, NaN, NaN, NaN)" style="fill: rgb(216, 216, 216);"/>
+  <rect transform="matrix(0.75569, -0.654931, 0.654931, 0.755688, -624.97028, -566.953385)" x="156.687" y="1029.525" width="11.431" height="179.137" style="fill: rgb(255, 217, 0);"/>
+  <rect x="128.868" y="40.201" width="34.908" height="91.46" style="fill: rgb(138, 129, 64);" transform="matrix(0.737752, -0.675072, 0.675072, 0.737752, -24.524313, 124.804056)"/>
+  <rect x="318.77" y="215.442" width="34.908" height="91.46" transform="matrix(0.729324, -0.684168, 0.68417, 0.729323, -111.414898, 286.763046)" style="fill: url(#gradient-2);"/>
+  <rect transform="matrix(-0.712767, -0.7014, 0.701399, -0.712769, -432.905071, 1085.330243)" x="156.687" y="1029.525" width="11.431" height="179.137" style="fill: rgb(255, 217, 0);"/>
+  <rect x="377.412" y="141.435" width="34.908" height="91.46" style="fill: rgb(138, 129, 64);" transform="matrix(0.708781, 0.705428, -0.705428, 0.708782, 160.454265, -325.97685)"/>
+  <rect x="433.27" y="142.832" width="34.908" height="91.46" transform="matrix(0.696693, 0.717369, -0.71737, 0.696692, -14.969689, -191.437911)" style="fill: url(#gradient-3);"/>
+  <ellipse cx="233.942" cy="178.089" rx="16.407" ry="15.709" style="fill: rgb(138, 129, 64);"/>
+</svg>
