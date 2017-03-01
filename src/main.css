@@ -22,6 +22,14 @@ a {
 /* MYSTUFF
 -------------------------------------------------- */
 
+.thumbnail {
+  border-radius: 5px;
+}
+
+.logo {
+  border-radius: 25px;
+}
+
 .mystuff {
   color: #fff;
   text-shadow: 1px 1px 1px black;
