@@ -131,6 +131,14 @@ a {
   color: #6fbef6;
 }
 
+.marketing .col-md-3 .fa {
+  font-size: 60px;
+  background-color: #0e84d8;
+  border-radius: 50%;
+  padding: 40px;
+  color: #6fbef6;
+}
+
 
 /* STICKY FOOTER
 -------------------------------------------------- */
