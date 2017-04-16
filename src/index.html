@@ -5,43 +5,127 @@
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
+  <title>Carl's Cars</title>
+  <script src="https://use.fontawesome.com/bd6074411c.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script type="text/javascript" src="../client.js"></script>
 </head>
 <body>
 
-  <!--
-    Previous project placeholder begins
-  -->
-  <div class="header">
-    <h1>Morgan McCircuit</h1>
-    <h2>I write code</h2>
+<nav class="navbar navbar-light navbar-fixed-top" style="background-color: #57b3f4;">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Carl Zhang</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="Blog/myblog.html">My Blog</a></li>
+        <li><a href="mystuff.html">My Stuff</a></li>
+        <li><a href="#">Contact me</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
   </div>
+  <!-- /.container-fluid -->
+</nav>
 
-  <div class="tagline">
-    <h3>Who I am</h3>
-    <p>Hi, my name is Morgan and I love to write code that is efficient.</p>
+<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Who I am</h1>
+          <p>Hi, my name is Carl Zhang and I love innovating, creating, discovering and learning. I like to code, read, solve problems and draw.</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What I do</h1>
+          <p>I am a front-end and back-end developer that loves to write code that is flexible and efficient</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What I enjoy</h1>
+          <p>I enjoy many things. I like the average Sunday afternoon walk, a picnic in the park, goofing off with my friends, and the occasional video gaming spree.</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What I have done</h1>
+          <p>I just started out as a developer, but I already have a few works that I'd be happy to share. To see some of my projects, <a href="mystuff.html">click here</a></p>
+        </div>
+      </div>
+    </div>
   </div>
+  <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-
-  <div class="skills">
-    <h3>What I do</h3>
-    <p>Here are some of the languages I use on a day-to-day.</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
+<div class="marketing">
+  <div class="container">
+    <div class="row jumbotron" style="background-color: #3fa8f3;">
+      <div class="col-md-12 center">
+        <h1>My Skills</h1>
+      </div>
+      <div class="col-md-3">
+        <span class="glyphicon glyphicon-flash"></span>
+        <h2>Javascript</h2>
+        <p>My favourite dynamic, flexible language that I use to make the web come to life</p>
+      </div>
+      <div class="col-md-3">
+        <span class="glyphicon glyphicon-eye-open"></span>
+        <h2>HTML and CSS</h2>
+        <p>I use these to structure and paint my web applications into masterpieces</p>
+      </div>
+      <div class="col-md-3">
+        <span class="fa fa-database"></span>
+        <h2>Database handling</h2>
+        <p>I love managing the behind the scenes of applications</p>
+      </div>
+      <div class="col-md-3">
+        <span class="glyphicon glyphicon-hdd"></span>
+        <h2>RESTful APIs</h2>
+        <p>The tried-and-true way of writing back-end sevices for my clients</p>
+      </div>
+    </div>
   </div>
+</div>
 
-  <div class="contact">
+<footer>
+  <div class="container">
     <h3>Get in touch</h3>
-    <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
+    <p>Email me at carlisawsooome@gmail.com</p>
   </div>
-  <!--
-    Previous project placeholder ends
-    (unused pieces will be deleted at the last task)
-  -->
-
+</footer>
 
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
