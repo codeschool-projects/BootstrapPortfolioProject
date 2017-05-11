@@ -10,7 +10,7 @@
 
 /* Carousel base class */
 .carousel {
-  height: 240px;
+  height: 300px;
   margin-bottom: 30px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -20,7 +20,7 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 240px;
+  height: 300px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -46,22 +46,24 @@
 -------------------------------------------------- */
 
 .marketing {
-  margin: 60px auto;
+  margin: 120px auto;
 }
 
-.marketing .col-md-4 {
+.marketing .col-md-6 {
   text-align: center;
   font-size: 16px;
 }
 
-.marketing .col-md-4 .glyphicon {
-  font-size: 60px;
+.marketing .col-md-6 .glyphicon {
+  font-size: 48px;
   background-color: #EAEAEA;
   border-radius: 50%;
   padding: 40px;
   color: #444;
 }
-
+.jobs{
+  height: 500px;
+}
 
 /* STICKY FOOTER
 -------------------------------------------------- */
