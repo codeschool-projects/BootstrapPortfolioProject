@@ -120,7 +120,7 @@ describe('The webpage', () => {
       });
 
       it('should exist at least 3 @marketing-columns', () => {
-        assert(columns.length === 3, 'Our `.row` element needs at least 3 column elements.');
+        assert(columns.length >= 3, 'Our `.row` element needs at least 3 column elements.');
       });
 
       it('should have an icon with the glyphicon icon class @marketing-columns', () => {
