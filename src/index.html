@@ -8,35 +8,117 @@
   <title>HTML Portfolio</title>
 </head>
 <body>
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MICHAEL WALTON</a>
+    </div>
 
-  <!--
-    Previous project placeholder begins
-  -->
-  <div class="header">
-    <h1>Morgan McCircuit</h1>
-    <h2>I write code</h2>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
+      <ul class="nav navbar-nav">
+        <li><a href="#accomp">Accomplishments</a></li>
+        <li><a href="#Bot">Cotact Me</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
   </div>
+  <!-- /.container-fluid -->
+</nav>
 
-  <div class="tagline">
-    <h3>Who I am</h3>
-    <p>Hi, my name is Morgan and I love to write code that is efficient.</p>
+
+<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What do I do?</h1>
+          <p>I am currently a web developer, specialising in Front-End development and hoping to move into the Aritficial Intelligence inudstry in the future. If you need a website created for your business or possibly feel the one you have now doesn't stand out to your current competition, get in contact and we can work together to give your business a fresh and modern look.</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Skills I have mastered</h1>
+          <p>
+            <ul id='points'>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>Photoshop</li>
+              <li>Face to Face Sales</li>
+              <li>Telesales</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Story so far...</h1>
+          <p>After school and college I went off to Brighton university to study criminology. However, I realised the course was not in line with what I wanted to do. I then worked in Sales & Finance for 2 years but recently decided to leave the industry to persue a career in web development, as it is an area I'm very passionaite about.</p>
+        </div>
+      </div>
+    </div>
   </div>
+  <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-
-  <div class="skills">
-    <h3>What I do</h3>
-    <p>Here are some of the languages I use on a day-to-day.</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
+<div class='marketing'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <span class='glyphicon glyphicon-star'></span>
+        <h2>£1,000,000</h2>
+        <p>Sold over one million pounds worth of investment during my time at Elite Investor Club</p>
+      </div>
+      <a name='accomp'></a>
+      <div class='col-md-4'>
+        <span class='glyphicon glyphicon-star'></span>
+        <h2>Portfolio of websites</h2>
+        <p>The 1st website I created compares the finances of Premier League football clubs using HTML, CSS & jQuery. You can view it by <a href='www.football-finance.com'>clicking here</a>.<br>I also created a simple HTML & CSS web page describing a little more about myself, <a href='http://football-finance.com/HTMLPortfolioProject/'>click here</a> to see</p>
+      </div>
+      <div class='col-md-4'>
+        <span class='glyphicon glyphicon-star'></span>
+        <h2>Hobbies</h2>
+        <p>I enjoy playing the Ukelele, travelling and I am also a big football fan</p>
+      </div>
+    </div>
   </div>
+</div>
 
-  <div class="contact">
-    <h3>Get in touch</h3>
-    <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
+<footer>
+  <div class='container'>
+    <h3>Get in Touch...</h3>
+    <p>You can contact me via email at <strong>07waltonmic@outlook.co.uk</strong> or visit my LinkedIn page if you prefer by <a href='https://www.linkedin.com/in/michael-walton-0199b2100/'>clicking here</a></p>
   </div>
+</footer>
+<a name='Bot'></a>
+
+
   <!--
     Previous project placeholder ends
     (unused pieces will be deleted at the last task)
