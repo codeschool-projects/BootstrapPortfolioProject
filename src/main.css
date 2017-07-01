@@ -91,3 +91,8 @@ footer {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+
+#points {
+  list-style-type: none;
+}
