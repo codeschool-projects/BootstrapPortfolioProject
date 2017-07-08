@@ -3,6 +3,16 @@
 
 .navbar {
   margin-bottom: 0;
+  background-color: #FFF;
+}
+
+.navbar .navbar-brand, .navbar .navbar-nav > li > a {
+  color: #015249;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: #77C9D4
 }
 
 /* CUSTOMIZED CAROUSEL
@@ -21,7 +31,7 @@
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 240px;
-  background-color: #777;
+  background-color: #333;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -74,6 +84,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 160px;
+  font-family: 'PT Serif', serif;
 }
 
 .footer,
@@ -83,7 +94,7 @@ footer {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 160px;
-  background: #444;
+  background: #333;
   color: white;
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
