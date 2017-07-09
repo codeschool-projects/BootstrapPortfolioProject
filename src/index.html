@@ -3,44 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
+  <title>seankarltonlee</title>
 </head>
 <body>
 
-  <!--
-    Previous project placeholder begins
-  -->
-  <div class="header">
-    <h1>Morgan McCircuit</h1>
-    <h2>I write code</h2>
+<!-- Navbar -->
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sean Karlton Lee</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+  <div class="container">
+    <div class="row well well-lg">
+      <div class="col-md-8">
+        <h2>Scientist, Engineer, Developer</h2>
+          <p class='lead'>I'm a student at USC with an interest in machine learning and data science</p>
+      </div>
+      <div class="col-md-4 visible-md visible-lg">
+        <img class='profilepic' src="images/profile.jpg" alt="seankarltonlee">
+      </div>
+    </div>
+
+    <div class="row text-center features">
+      <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+        <img class="portfolio "src="images/about.jpeg" alt="about">
+        <h3>About</h3>
+        <p>Something Something</p>
+      </div>
+
+      <div class="col-sm-4 col-xs-6">
+        <img class="portfolio "src="images/portfolio.jpeg" alt="portfolio">
+        <h3>Portfolio</h3>
+        <p>Check out my projects here!</p>
+      </div>
+
+      <div class="col-sm-4 col-xs-6">
+        <img class="portfolio "src="images/resume.jpeg" alt="resume">
+        <h3>Resume</h3>
+        <p>Take a look at how I get here</p>
+      </div>
+    </div>
   </div>
 
-  <div class="tagline">
-    <h3>Who I am</h3>
-    <p>Hi, my name is Morgan and I love to write code that is efficient.</p>
-  </div>
+  <div class="footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6 col-xs-6">
+            <h4>Links</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Resume</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class='col-sm-6 col-xs-6'>
+            <h4>Contact Me</h4>
+            <ul class='list-unstyled'>
+              <li><i class='glyphicon glyphicon-globe'></i> Los Angeles, CA</li>
+              <li class="break-word"><i class='glyphicon glyphicon-envelope'></i>
+                <a href='mailto:seankl.007@gmail.com'> seankl.007@gmail.com</a>
+              </li>
+            </ul>
 
 
-  <div class="skills">
-    <h3>What I do</h3>
-    <p>Here are some of the languages I use on a day-to-day.</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
+        </div>
+      </div>
   </div>
-
-  <div class="contact">
-    <h3>Get in touch</h3>
-    <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
-  </div>
-  <!--
-    Previous project placeholder ends
-    (unused pieces will be deleted at the last task)
-  -->
 
 
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
