@@ -82,11 +82,11 @@ footer {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
+  height: 100px;
   background: #444;
   color: white;
   text-shadow: 1px 1px 1px black;
-  padding: 40px 0;
+  /*padding: 40px 0;*/
 }
 
 /* RESPONSIVE CSS
