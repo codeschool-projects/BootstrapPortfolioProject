@@ -21,7 +21,7 @@
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 240px;
-  background-color: #777;
+  background-color: rgb(61, 114, 105);
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -83,7 +83,7 @@ footer {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 160px;
-  background: #444;
+  background: rgb(61, 114, 105);
   color: white;
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
