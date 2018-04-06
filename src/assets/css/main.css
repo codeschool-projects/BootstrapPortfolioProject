@@ -1,11 +1,69 @@
-/* NAVBAR
+
+
+/*GLOBAL STYLES START--------------------------------------------*/
+
+/* NAVBAR START
 -------------------------------------------------- */
 
 .navbar {
   margin-bottom: 0;
 }
 
-/* CUSTOMIZED CAROUSEL
+/* NAVBAR END
+-------------------------------------------------- */
+
+/* STICKY FOOTER START
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+  font-family: 'Helvetica Neue', serif;
+  font-size: 18px;
+
+}
+
+.footer,
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background: #444;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  padding: 40px 0;
+}
+/* STICKY FOOTER END
+-------------------------------------------------- */
+
+/* INDEX STYLES
+-------------------------------------------------- */
+
+.marketing {
+  margin: 60px auto;
+}
+
+.marketing .col-md-4 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.marketing .col-md-4 .glyphicon {
+  font-size: 60px;
+  background-color: #EAEAEA;
+  border-radius: 50%;
+  padding: 40px;
+  color: #444;
+}
+
+/* CUSTOMIZED CAROUSEL START
 -------------------------------------------------- */
 
 /* Carousel base class */
@@ -42,59 +100,17 @@
 
 }
 
-/* MARKETING
+/* CUSTOMIZED CAROUSEL END
+-------------------------------------------------- */
+/*  END INDEX STYLES
 -------------------------------------------------- */
 
-.marketing {
-  margin: 60px auto;
-}
-
-.marketing .col-md-4 {
-  text-align: center;
-  font-size: 16px;
-}
-
-.marketing .col-md-4 .glyphicon {
-  font-size: 60px;
-  background-color: #EAEAEA;
-  border-radius: 50%;
-  padding: 40px;
-  color: #444;
-}
-
-
-/* STICKY FOOTER
+/* CURRICULUM CSS START
 -------------------------------------------------- */
 
-html {
-  position: relative;
-  min-height: 100%;
+.learning {
+	border: solid 4px #999;
 }
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 160px;
-  font-family: 'Helvetica Neue', serif;
-  font-size: 18px;
-
-}
-
-.footer,
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 160px;
-  background: #444;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  padding: 40px 0;
-}
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
 
 #badges {
   text-align: center;
@@ -130,3 +146,7 @@ footer {
 .course a {
   display: block;
 }
+
+
+/* CURRICULUM CSS END
+-------------------------------------------------- */
